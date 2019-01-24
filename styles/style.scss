@@ -1,25 +1,15 @@
 @font-face {
-
-font-family: 'bauhaus93';
-
-src: url('../fonts/BAUHS93.TTF') format('truetype');
-
-font-weight: normal;
-
-font-style: normal;
-
+	font-family: 'bauhaus93';
+	src: url('../../fonts/BAUHS93.TTF') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-
-font-family: 'xirod';
-
-src: url('../fonts/AA-Xirod.ttf') format('truetype');
-
-font-weight: normal;
-
-font-style: normal;
-
+	font-family: 'xirod';
+	src: url('../../fonts/AA-Xirod.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 .logo {
@@ -44,6 +34,7 @@ font-style: normal;
 	margin-left: 60px;
 }
 
+
 .logo-text2 {
 	position: absolute;
 	font-size: 33px;
@@ -52,9 +43,38 @@ font-style: normal;
 }
 
 .flex-container {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
 	font-family: 'xirod';
+	font-size: 12px;
+	line-height: 1.2;
+	text-align: center;
+    margin-top: 100px;
 }
+.row {
+	display: flex;
+	direction: row;
+	justify-content: space-around;
+	margin-right: 300px;
+	margin-left: 220px;
+	margin-top: 20px;
+		img {
+			width: 100px;
+			height: auto;
+		}
+		.too-large {
+			font-size: 10.5px;
+		}
+}
+
+.contact-info {
+	font-family: 'bauhaus93';
+	padding-left: 10px;
+	margin-right: 100px;
+	margin-top: 50px;
+	
+	div {
+		display: flex;
+		justify-content: flex-end;
+	}
+}
+
+
