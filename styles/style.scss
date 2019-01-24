@@ -1,0 +1,60 @@
+@font-face {
+
+font-family: 'bauhaus93';
+
+src: url('../fonts/BAUHS93.TTF') format('truetype');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+
+@font-face {
+
+font-family: 'xirod';
+
+src: url('../fonts/AA-Xirod.ttf') format('truetype');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+
+.logo {
+	 margin: auto;
+	 width: 50%;
+	 padding: 10px;
+	 font-family: 'bauhaus93';
+}	 
+
+.shape {
+	position: relative;
+    width: 130px;
+    height: 130px;
+    border-radius: 130px;
+    background-color: #ff0000; 
+}
+
+.logo-text1 {
+	position: absolute;
+	font-size: 88px;
+	margin-top: -130px;
+	margin-left: 60px;
+}
+
+.logo-text2 {
+	position: absolute;
+	font-size: 33px;
+	margin-top: -40px;
+	margin-left: 268px;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	font-family: 'xirod';
+}
