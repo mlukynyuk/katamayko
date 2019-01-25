@@ -10,7 +10,11 @@ build:
 	sass styles/style.scss:generated/styles/style.css
 	rm -rf dist
 	mkdir dist
-	cp -R {fonts,images,generated,index.html} dist
+	ls -l
+	cp -R fonts dist
+	cp -R images dist
+	cp -R generated dist
+	cp index.html dist
 
 help:
 	@echo "sass: run and listen for scss reload"
