@@ -6,7 +6,7 @@ serve:
 	python -m SimpleHTTPServer 8080
 
 build:
-	mkdir -P generated/styles
+	mkdir -p generated/styles
 	sass styles/style.scss:generated/styles/style.css
 	rm -rf dist
 	mkdir dist
