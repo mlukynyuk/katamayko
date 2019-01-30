@@ -39,6 +39,11 @@ a {
     	height: 80px;
     	border-radius: 80px;
 	}
+	@media screen and (max-width: 479px) {
+		width: 60px;
+    	height: 60px;
+    	border-radius: 60px;
+	}
     background-color: #ff0000; 
 }
 
@@ -59,8 +64,8 @@ a {
 	}
 	@media screen and (max-width: 479px) {
 		font-size: 38px;
-		margin-top: -75px;
-		margin-left: 45px;
+		margin-top: -55px;
+		margin-left: 30px;
 	}
 }
 
@@ -79,6 +84,11 @@ a {
 		margin-top: -5px;
 		margin-left: 160px;
 	}
+	@media screen and (max-width: 479px) {
+		font-size: 18px;
+		margin-top: -3px;
+		margin-left: 110px;
+	}
 }
 
 .flex-container {
@@ -87,6 +97,12 @@ a {
 	line-height: 1.2;
 	text-align: center;
     margin-top: 100px;
+    @media  (max-width: 700px) {
+    	font-size: 10px;
+    }
+    @media  (max-width: 540px) {
+    	font-size: 9.5px;
+    }
 }
 
 .row {
@@ -107,9 +123,31 @@ a {
 	img {
 		width: 100px;
 		height: auto;
+		@media screen and (max-width:800px) {
+			width: 80px;
+			height: auto;
+		}
+		@media screen and (max-width:700px) {
+			width: 70px;
+			height: auto;
+		}
+		@media screen and (max-width:580px) {
+			width: 60px;
+			height: auto;
+		}
+		@media screen and (max-width:580px) {
+			width: 40px;
+			height: auto;
+		}
 	}
 	.too-large {
 		font-size: 10.5px;
+		@media  (max-width: 700px) {
+    		font-size: 8.5px;
+    	}
+    	@media  (max-width: 540px) {
+    		font-size: 7.5px;
+    	}
 	}
 }
 
