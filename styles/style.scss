@@ -98,10 +98,7 @@ a {
 	text-align: center;
     margin-top: 100px;
     @media  (max-width: 700px) {
-    	font-size: 10px;
-    }
-    @media  (max-width: 540px) {
-    	font-size: 9.5px;
+    	display: none;
     }
 }
 
@@ -127,27 +124,27 @@ a {
 			width: 80px;
 			height: auto;
 		}
-		@media screen and (max-width:700px) {
-			width: 70px;
-			height: auto;
-		}
-		@media screen and (max-width:580px) {
-			width: 60px;
-			height: auto;
-		}
-		@media screen and (max-width:580px) {
-			width: 40px;
-			height: auto;
-		}
+		// @media screen and (max-width:700px) {
+		// 	width: 70px;
+		// 	height: auto;
+		// }
+		// @media screen and (max-width:580px) {
+		// 	width: 60px;
+		// 	height: auto;
+		// }
+		// @media screen and (max-width:580px) {
+		// 	width: 40px;
+		// 	height: auto;
+		// }
 	}
 	.too-large {
 		font-size: 10.5px;
-		@media  (max-width: 700px) {
-    		font-size: 8.5px;
-    	}
-    	@media  (max-width: 540px) {
-    		font-size: 7.5px;
-    	}
+		// @media  (max-width: 700px) {
+  //   		font-size: 8.5px;
+  //   	}
+  //   	@media  (max-width: 540px) {
+  //   		font-size: 7.5px;
+  //   	}
 	}
 }
 
@@ -179,9 +176,9 @@ a {
 	    	font-size: 16px;
 	    	@media screen and (max-width: 609px) {
 		 		font-size: 12px;
-			}
-	    }
+		}
 	}
+}
 	
 	.contact-info {
 		font-family: 'bauhaus93';
@@ -237,5 +234,33 @@ a {
 		display: inline-block;
 		vertical-align: middle;
 		margin-top: -10px;
+	}
+}
+
+.flex-container-smaller-size {
+	@media  (min-width: 701px) {
+		display: none;	
+	}
+
+	@media screen and (max-width: 700px) {
+
+		font-family: 'xirod';
+		font-size: 12px;
+		line-height: 1.2;
+		text-align: center;
+	    margin-top: 100px;
+			.row {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+				margin-top: 20px;
+				img {
+					width: 100px;
+					height: auto;
+				}
+				.too-large {
+					font-size: 10.5px;
+			}
+		}
 	}
 }
